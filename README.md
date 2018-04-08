@@ -37,3 +37,12 @@ Enter a Local Response Policy Zone groupname that should be used for malicious I
 Create Certificates for OpenDXL ([Link](https://opendxl.github.io/opendxl-client-python/pydoc/epoexternalcertissuance.html)). 
 
 Make sure that the FULL PATH to the config file is entered in line 17 (atd_subscriber.py).
+
+## Process Description
+McAfee ATD receives files from multiple sensors like Endpoints, Web Gateways, Network IPS or via Rest API. 
+ATD will perform malware analytics and produce local threat intelligence. After an analysis every IOC will be published via the Data Exchange Layer (topic: /mcafee/event/atd/file/report). 
+
+### atd_subscriber.py
+The atd_subscriber.py receives DXL messages from ATD, filters out discovered IP's and URLs and loads ib_push.py that leverages the Infoblox APIs to add / modify the RPZ rules.
+
+
