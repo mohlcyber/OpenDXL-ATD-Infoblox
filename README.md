@@ -43,6 +43,6 @@ McAfee ATD receives files from multiple sensors like Endpoints, Web Gateways, Ne
 ATD will perform malware analytics and produce local threat intelligence. After an analysis every IOC will be published via the Data Exchange Layer (topic: /mcafee/event/atd/file/report). 
 
 ### atd_subscriber.py
-The atd_subscriber.py receives DXL messages from ATD, filters out discovered IP's and URLs and loads ib_push.py that leverages the Infoblox APIs to add / modify the RPZ rules.
+The atd_subscriber.py receives DXL messages from ATD, filters out discovered IP's and URLs and loads ib_push.py.
 
 
