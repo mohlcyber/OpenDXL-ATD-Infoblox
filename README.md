@@ -55,7 +55,7 @@ The script will:
 3. check if IP or URL / domain exist already and create it if it doesn't
 4. logout
 
-<img width="957" alt="screen shot 2018-04-08 at 19 31 57" src="https://user-images.githubusercontent.com/25227268/38470455-8cdeb31c-3b63-11e8-8c7a-165e5564ec98.png">
+<img width="940" alt="screen shot 2018-04-08 at 19 35 48" src="https://user-images.githubusercontent.com/25227268/38470495-13df0a06-3b64-11e8-955c-5548c517cb8a.png">
 
 ## Run the OpenDXL wrapper
 > python atd_subscriber.py
