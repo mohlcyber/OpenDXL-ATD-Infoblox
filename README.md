@@ -32,7 +32,7 @@ Enter the Infoblox ip, username and password in the ib_push.py file (line 113, 1
 
 Enter a Local Response Policy Zone groupname that should be used for malicious IP and Domains (ib_push.py - line 118).
 
-<img width="395" alt="screen shot 2018-04-08 at 16 50 28" src="https://user-images.githubusercontent.com/25227268/38468918-07628742-3b4d-11e8-98fd-e5c821c04836.png">
+<img width="328" alt="screen shot 2018-04-08 at 16 52 49" src="https://user-images.githubusercontent.com/25227268/38468937-4dc502aa-3b4d-11e8-9e65-12ff5e488116.png">
 
 Create Certificates for OpenDXL ([Link](https://opendxl.github.io/opendxl-client-python/pydoc/epoexternalcertissuance.html)). 
 
