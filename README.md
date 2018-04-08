@@ -26,3 +26,14 @@ python setup.py install
 ```
 
 McAfee ePolicy Orchestrator, DXL Broker
+
+## Configuration
+Enter the Infoblox ip, username and password in the ib_push.py file (line 113, 114, 115).
+
+Enter a Local Response Policy Zone groupname that should be used for malicious IP and Domains (ib_push.py - line 118).
+
+<img width="395" alt="screen shot 2018-04-08 at 16 50 28" src="https://user-images.githubusercontent.com/25227268/38468918-07628742-3b4d-11e8-98fd-e5c821c04836.png">
+
+Create Certificates for OpenDXL ([Link](https://opendxl.github.io/opendxl-client-python/pydoc/epoexternalcertissuance.html)). 
+
+Make sure that the FULL PATH to the config file is entered in line 17 (atd_subscriber.py).
