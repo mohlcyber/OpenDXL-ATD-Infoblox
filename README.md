@@ -71,5 +71,4 @@ or
 link: https://www.youtube.com/watch?v=Bqi0z0iam9c
 
 ## Summary
-With this use case, ATD produces local intelligence that is immediatly updating policy enforcement points like the 
-DNS blackholing solutions with malicious IP's and URL's.
+With this use case, ATD produces local intelligence that is immediatly updating policy enforcement points like the Infoblox solution.
